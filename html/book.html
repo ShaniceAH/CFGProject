@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="project1/css/style1,css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <title>Bookings</title>
+
+<body>
+<!-- Navbar -->     
+<nav class="navbar navbar-expand-lg
+        navbar-light bg-dark navbar-dark fixed-top py-lg-0">
+        <a class="navbar-brand" href="#home">
+            <img src="../media/fusion23-logo-cropped.jpg" width="90" height="auto" alt="Fusion 23 logo">
+        </a>
+        <button class="navbar-toggler" type="button"
+                data-toggle="collapse"
+                data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"
+                id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="book.html">Bookings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="find-us.html">Find Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="contact-hero-image">
+        <div class="hero-text">
+        <h1>BOOK A TABLE</h1>
+        </div>
+    </div>
+        <section>
+            <div class="form-container">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <br><h3>
+                    -------------------------------------------  MAKE A BOOKING -------------------------------------------      
+                    </h3>
+
+                    
+
+                    <input type="text" 
+                    id="name"
+                    placeholder="Enter Name" required>
+
+                    <input type="textbox" 
+                    id="phone" 
+                    placeholder="Phone Number" required>
+
+                    <input type="email" 
+                    id="email" 
+                    placeholder="Email Address" required>
+
+                    <input type="date" name="Date">
+
+                    <select class="form-select" sans serif="Default select example">
+                        <option selected>Number of People</option>
+                        <option value="1"> </option>  
+                        <option value="1"> 1</option>   
+                        <option value="2"> 2</option>             
+                        <option value="3"> 3</option>
+                        <option value="4"> 4</option>
+                        <option value="5"> 5</option>                
+                        <option value="6"> 6</option>
+                        <option value="7"> 7</option>
+                        <option value="8"> 8</option>
+                </select><br>
+
+                <select class="form-select" sans serif="Default select example">
+                    <option selected>Type of Booking</option>
+                    <option value="Lunch"> </option> 
+                    <option value="Lunch"> Lunch</option>                
+                    <option value="Dinner"> Dinner</option>
+                    <option value="Bottomless"> Bottomless</option>
+                </select><br>
+
+                <select class="form-select" sans serif="Default select example">
+                    <option selected>Time</option>
+                        <option value="11:00"> </option> 
+                        <option value="11:00"> 11:00</option>   
+                        <option value="11:30"> 11:30</option>             
+                        <option value="12:00"> 12:00</option>
+                        <option value="12:30"> 12:30</option>
+                        <option value="13:00"> 13:00</option>                
+                        <option value="13:30"> 13:30</option>
+                        <option value="14:00"> 14:00</option>
+                        <option value="14:30"> 14:30</option>
+                        <option value="15:00"> 15:00</option>   
+                        <option value="15:30"> 15:30</option>             
+                        <option value="16:00"> 16:00</option>
+                        <option value="16:30"> 16:30</option>
+                        <option value="17:00"> 17:00</option>                
+                        <option value="17:30"> 17:30</option>
+                        <option value="18:00"> 18:00</option>
+                        <option value="18:30"> 18:30</option>
+                        </select><br>
+                    <a href="Confirmations.html" class="btn btn-outline-light">BOOK</a>
+                </form>
+            </div>   
+            </section><br>
+
+        <div class="form-container">
+            <div class="box-2">
+    
+                <h3>JOIN FOR EXCLUSIVE OFFERS</h3> 
+                <p>
+                    SIGN UP OUR NEWSLETTER AND GET A FREE SIDE WITH ANY MAIN. PLUS YOU'LL GET A FREE MEAL ON YOUR BURTHDAY
+                </p>
+                
+        <form class="my-form">
+    
+            <div class="form-group">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">Tick the box and we'll start you off with a free side, a treat on your birthday and keep you updated with all the news </label><br>
+        </div>
+
+            <div class="form-group">
+                
+                <input type="text" name="name"
+                class="eField"
+                placeholder="Enter Name">
+            </div>
+    
+            <div class="form-group">
+                
+                <input type="text" email="name"
+                class="eField"
+                placeholder="contact@fusion23.co.uk">
+            </div>
+
+            <div class="form-group">
+            <input type="text" name="name"
+            class="eField"
+            placeholder="Date of Birth">
+            </div>
+                
+            <div class="form-group">
+                <a href="Subcribe.html" class="btn btn-outline-light">Subcribe</a>
+            </div>
+    
+        </form>
+        </div>
+        </div>
+        
+<!-- Footer -->
+<footer class="footer"> 
+    <p>Fusion 23 &copy; All Rights Reserved</p>
+    <p>
+        <a href="https://www.facebook.com/fusion23uk" class="fa fa-facebook"></a>
+        <a href="https://instagram.com/fusion23uk?igshid=MzRlODBiNWFlZA==
+        " class="fa fa-instagram"></a>
+
+    </p>
+</footer>
+<script src="https://smtpjs.com/v3/smtp.js"></script> 
+<script>
+    function sendEmail(){
+        Email.send({
+            SecureToken: "4e5210d3-e759-41db-9ab7-d5de66f6978c",
+            To : "techiefroggy@gmail.com",
+            From : document.getElementById("email").value,
+            Subject : "New contact form enquiry",
+            Body : "Name: " + document.getElementById("name").value
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> Phone number: " + document.getElementById("phone").value
+                + "<br> Message: " + document.getElementById("message").value
+        }).then(
+        message => alert("Thanks for contacting Fusion23 – we'll get back to you as soon as poss!")
+        );
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

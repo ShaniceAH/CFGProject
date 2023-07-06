@@ -1,0 +1,159 @@
+
+        background-color: rgb(71,71,46);
+    color: white;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: ;
+
+    
+    .fa-facebook {
+        background: ;
+        color: white;}
+    
+        .fa-instagram {
+            background:;
+            color: white;
+        }
+    
+        .fa {
+            padding: 15px;
+            font-size: 20px;
+            width: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 1%;
+        }
+        
+
+.box-2{
+    background-color: black;
+
+    border-top: 10px solid white;
+
+    padding: 30px;
+    text-align: center;
+    border-radius: ;
+
+}
+
+.box-1 h1{
+    color: black;
+    text-align: center
+}
+
+
+.my-form{
+    padding: none
+}
+
+.my-form .form-group{
+    padding-bottom: 15px
+}
+
+.my-form input[type="date"] {
+    text-align: center;
+}
+
+.my-form .form-group label {
+    display: block;
+}
+
+.my-form input,.my-form textarea {
+
+    width: 70%;
+}
+
+.my-form select{
+    width: 70%;
+    text-align: center;
+}
+
+.button{
+    background-color: white;
+    text-decoration: none;
+}
+
+:-moz-placeholder {
+    text-align: center;
+}
+
+footer {
+    padding:5px;
+    background: white;
+    color: black;
+    font-size: 10px;
+}
+
+.less{
+    filter: invert(100%);
+}
+
+.eField{
+    text-align: center;
+}
+
+h3{
+    font-size: x-large;
+}
+
+.block{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.block-1{
+    float: right;
+    width: 33.3%;
+}
+
+
+$form-select-color{
+    background-color: #f5f5f5; 
+} 
+
+@-ms-viewport{
+    width: device-width;
+
+.responsive {
+    width: 100%;
+    height: auto; 
+}
+
+display:flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 90% 
+max-width: 600px;
+border-radius: 10px;
+margin:2vw 4vw;
+
+body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; }
+
+img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+table { border-collapse: collapse !important; }
+body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-hide {
+        display: none !important;
+    }
+    .mobile-center {
+        text-align: center !important;
+    }
+}
+div[style*="margin: 16px 0;"] { margin: 0 !important; }
+

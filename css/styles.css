@@ -1,0 +1,314 @@
+/* nav bar */
+
+.navbar.bg-dark {
+    background-color:#000000 !important;
+    padding-left:30px;
+}
+
+button.navbar-toggler {
+    border: var(--bs-border-width) solid white;
+
+}
+
+.container {
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content: center;
+}
+
+/* headers */
+
+body, html {
+    height:100%;
+    margin:0;
+}
+
+.home-hero-image {       
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/Loaded-Fries.jpeg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+
+.contact-hero-image {       
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/header.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 40;
+}
+
+.hero-text p {
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 24 !important;
+}
+
+    
+.hero-image{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    color:white;
+    }
+
+/* home – book now */
+
+#book-now-homepage {
+        padding-top:100px;
+        padding-bottom:100px;
+        justify-content: center;
+    }
+
+
+.btn-primary {
+    background:black !important;
+    color:white;
+    text-transform: uppercase;
+    font: size 12 !important;
+    border:0 !important;
+    outline:none;
+    cursor:pointer;
+    width:auto;
+    margin:auto;
+    border-radius: 0 !important;
+    white-space: nowrap; 
+    padding:10 20 20 10 !important;
+}
+
+/* home gallery*/
+
+.gallery {
+    padding-top: 10vh;
+    padding-left:auto;
+    margin:auto;
+}
+
+.display-5 {
+    padding-bottom:40px;
+}
+
+.card {
+    margin:10px;
+}
+
+/* find us*/
+
+.map-container {
+    width:100%;
+    height:90vh;
+    background:rgb(71,71,46);
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .map-container {
+        height:130vh;
+    }
+  }
+
+/* social button styling */
+
+.btn-secondary-facebook {
+    color: #fff;
+    background-color: rgb(71,71,46);
+    border-color: white;
+}
+
+.btn-secondary-facebook:hover {
+    background-color: #3b5998;
+    border:none;
+    color:white;
+    }
+
+.btn-secondary-instagram {
+    color: #fff;
+    background-color: rgb(71,71,46);
+    border-color: white;
+}
+
+.btn-secondary-instagram:hover {
+background: linear-gradient(60deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+border:none;
+color:white;
+}
+
+
+.map-container p {
+    color:white;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.flex-container {
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+.gap {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.responsive-iframe {
+    display:flex;
+    position: relative;
+    padding-top:0 !important;
+    padding-bottom:30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact a {
+    text-decoration: underline;
+    color:white;
+}
+
+/* contact form */
+
+.form-container {
+    width:100%;
+    height:110vh;
+    background:rgb(71,71,46);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        height:120vh;
+    }
+  }
+
+
+form h3{
+    color:#555;
+    font-weight:800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size:20px;
+    font-family:sans-serif;
+}
+
+form {
+background:#fff;
+display:flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 90% 
+max-width:600px;
+border-radius:10px;
+margin:2vw 4vw;
+}
+
+form input, form textarea {
+    border:0;
+    margin:10px 0;
+    padding:20px;
+    outline:none;
+    background: #f5f5f5;
+    font-size:16px;
+}
+
+form button {
+    padding:15px;
+    background:black;
+    color:white;
+    text-transform: uppercase;
+    font: size 18px;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    width:150px;
+    margin:20px auto 0;
+}
+
+/* Reviews */
+
+.display-6 {
+    color:white;
+}
+
+#reviews {
+    margin-top:10vh;
+    padding-top:10vh;
+    padding-bottom:10vh;
+    background:rgb(71,71,46);
+}
+
+.blockquote {
+    padding-top:8vh;
+    color:white;
+    font-size:18;
+}
+
+.blockquote-footer {
+    color:lightgrey !important;
+}
+
+#reviews-button {
+    margin-top:5vh;
+    border:solid white !important;
+    background:rgb(71,71,46) !important;
+}
+
+#reviews-button:hover {
+    margin-top:5vh;
+    background-color:white !important;
+    color:rgb(71,71,46) !important;
+}
+
+/* footer */
+
+.footer {
+    background:black;
+    width:100%;
+    height:100px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size:12px;
+    padding-top:60px;
+    padding:0;
+}
+
+.footer a {
+    display:inline-block;
+    color:white;
+    font-size:1.5em;
+    text-decoration:none;
+    margin-right:10px;
+}
+
+a:hover {
+    color:grey;
+}
